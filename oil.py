@@ -4,6 +4,11 @@ import pandas_datareader as web
 import statsmodels.api as sm
 from collections import OrderedDict
 import streamlit as st
+"""
+To run from command line, install streamlit, then type:
+streamlit run oil.py
+"""
+
 
 #credit to https://stackoverflow.com/users/3437787/vestland
 def RegressionRoll(df, subset, dependent, independent, const, win, parameters):
